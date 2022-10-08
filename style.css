@@ -5,8 +5,7 @@
 }
 
 body {
-    margin: 60px auto;
-    max-width: 800px;
+    margin: 60px auto !important;
 }
 
 h1,
@@ -17,26 +16,32 @@ h3 {
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 96px !important;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 48px !important;
+}
+
+.top-gap {
+    padding-top: 40px;
+}
+
+.app-descripion {
+    text-align: left;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 24px !important;
     opacity: 0.7;
 }
 
 p {
-    background: var(--secondary-color);
-    padding: 20px;
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
-    text-align: center;
 }
+
 
 .navigation-links {
     display: flex;
@@ -52,7 +57,14 @@ p {
     text-transform: capitalize;
 }
 
-.contact-link {
+.table-links {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.contact-link, .table-links {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
