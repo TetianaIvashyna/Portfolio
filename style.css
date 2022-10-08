@@ -102,7 +102,7 @@ p {
     text-decoration: underline;
 }
 
-@media (max-width: 756px) {
+@media (max-width: 575px) {
     .img-index {
         display: none;
     }
